@@ -1,0 +1,52 @@
+{
+    "name": "TouchControls",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "d8a1dcf6-eb4a-4c0d-bc34-cd7de716d562",
+            "actions": [
+                {
+                    "name": "TouchPress",
+                    "type": "PassThrough",
+                    "id": "2cf3c542-76eb-4de7-ba74-d0b8bc7f733f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TouchRelease",
+                    "type": "PassThrough",
+                    "id": "0e7d1592-1ae6-4ac9-9f16-5e666c8fbaa9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bf10612e-c727-4d45-a6cc-77083f9001df",
+                    "path": "<Touchscreen>/primaryTouch/phase",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bd521c2-efdf-496c-baa0-4debe160b55a",
+                    "path": "<Touchscreen>/primaryTouch/phase",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
